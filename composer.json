@@ -11,10 +11,5 @@
       "email": "david38sanchez@gmail.com",
       "homepage": "https://harmonycms.net"
     }
-  ],
-  "extra": {
-    "symfony": {
-      "id": "01CS5HZ5VBRQAE8Y7F8W28JDH7"
-    }
-  }
+  ]
 }
