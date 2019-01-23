@@ -1,7 +1,7 @@
 {
   "name": "harmony/acme-theme",
   "description": "HarmonyCMS Acme starter theme",
-  "homepage": "https://docs.harmonycms.net/bundles-and-components/themebundle/your-first-theme",
+  "homepage": "https://dev-docs.harmonycms.net/themes/your-first-theme",
   "license": "LGPL-3.0-or-later",
   "type": "harmony-theme",
   "version": "1.0.0",
@@ -11,5 +11,9 @@
       "email": "david38sanchez@gmail.com",
       "homepage": "https://harmonycms.net"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "harmony/sdk": "dev-master"
+  }
 }
