@@ -9,7 +9,7 @@ use Harmony\Sdk\Theme\Theme;
  *
  * @package Harmony\Theme\AcmeTheme
  */
-class AcmeTheme extends Theme
+class HarmonyAcmeTheme extends Theme
 {
 
     /** Constants */
