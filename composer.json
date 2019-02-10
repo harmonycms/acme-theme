@@ -15,5 +15,10 @@
   "require": {
     "php": ">=7.1.3",
     "harmony/sdk": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Harmony\\Theme\\AcmeTheme\\": ""
+    }
   }
 }
