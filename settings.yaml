@@ -4,4 +4,4 @@ settings:
     type: choice
     type_options: { expanded: true, multiple: false }
     choices: ['boxed', 'wide']
-    data: { value: 'boxed' }
+    data: 'boxed'
