@@ -1,0 +1,7 @@
+settings:
+  - name: layout
+    description: 'Select body style:<br><strong>boxed</strong> - if you want to show the site in a limited width container<br><strong>wide</strong> - page fill whole window with centered content'
+    type: choice
+    type_options: { expanded: true, multiple: false }
+    choices: ['boxed', 'wide']
+    data: { value: 'boxed' }

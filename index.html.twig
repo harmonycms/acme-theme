@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% set layout = setting_get('layout', 'boxed') %}
+
 {% block stylesheets %}
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{{ asset_theme('css/bootstrap.min.css') }}"/>
@@ -10,7 +12,7 @@
 
 {% block header %}
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container d-flex justify-content-between">
+    <div class="{% if layout == 'boxed' %}container{% else %}container-fluid{% endif %} d-flex justify-content-between">
       <a class="navbar-brand" href="{{ path('index') }}">{{ harmony.site_name }}</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
               aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
