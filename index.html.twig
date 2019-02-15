@@ -20,13 +20,12 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        {% set menu = knp_menu_get('main_menu') %}
-        {% do menu.setChildrenAttribute('class', 'navbar-nav ml-auto') %}
-        {% for child in  menu.children %}
-          {% do child.setAttribute('class', 'nav-item') %}
-          {% do child.setLinkAttribute('class', 'nav-link') %}
-        {% endfor %}
-        {{ knp_menu_render(menu, {'currentClass': 'active'}) }}
+        {{ menu_render('main_menu', {
+          'currentClass': 'active',
+          'childrenAttributes': { 'class': 'navbar-nav ml-auto' },
+          'attributes': { 'class': 'nav-item' },
+          'linkAttributes': { 'class': 'nav-link' }
+        }) }}
       </div>
     </div>
   </nav>
