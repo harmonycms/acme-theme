@@ -1,0 +1,9 @@
+version: '3'
+services:
+  # PHP
+  php:
+    container_name: harmony_acme_theme
+    build: .
+    volumes:
+      - .:/usr/src/acme_theme
+    working_dir: /usr/src/acme_theme

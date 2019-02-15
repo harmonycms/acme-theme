@@ -30,3 +30,11 @@
     </div>
   </nav>
 {% endblock %}
+
+{% block footer %}
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">{{ setting_get('footer_text')|raw }}</span>
+    </div>
+  </footer>
+{% endblock %}
