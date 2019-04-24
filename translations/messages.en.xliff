@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+    <file id="messages.en">
+        <unit id="setting">
+            <segment>
+                <source>setting.layout.description</source>
+                <target><![CDATA[Select body style:<br><strong>boxed</strong> - if you want to show the site in a limited width container<br><strong>wide</strong> - page fill whole window with centered content]]></target>
+            </segment>
+            <segment>
+                <source>setting.footer_text.description</source>
+                <target>Text displayed in the footer on the front-end</target>
+            </segment>
+        </unit>
+    </file>
+</xliff>
