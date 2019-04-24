@@ -15,6 +15,10 @@
                 <target>Wide</target>
             </segment>
             <segment>
+                <source>setting_footer_text</source>
+                <target>Footer text</target>
+            </segment>
+            <segment>
                 <source>setting.footer_text.description</source>
                 <target>Text displayed in the footer on the front-end</target>
             </segment>
