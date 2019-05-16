@@ -2,7 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <title>{% block title %}{{ setting_get('site_name') }}{% endblock %}</title>
+  <title>{% block title %}{{ sonata_seo_title() }}{% endblock %}</title>
+
+  {{ sonata_seo_metadatas() }}
+  {{ sonata_seo_link_canonical() }}
+  {{ sonata_seo_lang_alternates() }}
+  {{ sonata_seo_oembed_links() }}
 
   {% block stylesheets %}
     <!-- Bootstrap core CSS -->
