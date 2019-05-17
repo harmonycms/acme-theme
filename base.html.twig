@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <title>{% block title %}{{ sonata_seo_title() }}{% endblock %}</title>
+  {% block title %}{{ sonata_seo_title() }}{% endblock %}
 
   {{ sonata_seo_metadatas() }}
   {{ sonata_seo_link_canonical() }}
