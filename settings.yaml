@@ -1,10 +1,2 @@
-settings:
-    - name: setting_layout
-      description: 'setting.layout.description'
-      type: choice
-      type_options: { expanded: true, multiple: false }
-      choices: { setting.layout.boxed: 'boxed', setting.layout.wide: 'wide' }
-      data: 'boxed'
-    - name: setting_footer_text
-      description: 'setting.footer_text.description'
-      type: string
+setting_layout: 'boxed'
+setting_footer_text: 'Copyright'
